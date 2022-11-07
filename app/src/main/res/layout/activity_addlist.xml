@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_marginTop="10dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/back" />
+
+    <EditText
+        android:singleLine="true"
+        android:id="@+id/edname"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/back"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="15dp"
+        android:hint="Fullname"
+        />
+
+
+
+
+    <EditText
+        android:singleLine="true"
+        android:id="@+id/edmail"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/edname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="15dp"
+        android:hint="Email"
+        />
+    <Button
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/bt_signup"
+        android:hint="Add"
+        android:textColorHint="@color/white"
+        android:textSize="25dp" />
+
+
+
+</RelativeLayout>
